@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.registration-form{
+	background:#76E2E9;
+	height: 68.5vh;
+	padding: 100px;
+
+}
+.container{
+	width:1140px;
+	margin: 0 auto;
+
+}
+.form-box{
+	width: 85%;
+	background:white;
+	margin: 0 auto;
+	text-align: center;
+	height: 70vh;
+	/*padding: 160px;*/
+	display: flex;
+}
+.info{
+	flex-basis: 50%;
+	background:#3686BD;
+}
+.form{
+	flex-basis: 50%;
+	background:#FFFFFF;
+}
+.info-container{
+	padding-top: 30px;
+	padding-left: 55px;
+	padding-right: 45px;
+	padding-bottom: 45px;
+	text-align: left;
+	color: #F5FFFF;
+}
+.info-container h1{
+	font-weight: bolder;
+	padding-bottom: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+.info-container p{
+	font-size: 14px;
+	padding-bottom: 30px;
+	line-height: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+.info-container p span{
+	font-weight: bolder;
+}
+.info-container button{
+	padding: 10px 15px 10px 15px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bolder;
+	border-radius: 5px;
+	border:none;
+	position: relative;
+	z-index: 2;
+
+}
+.info-container button::before{
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	left:0;
+	height: 0;
+	background: tomato;
+	z-index:-2;
+}
+.info-container button:hover::before{
+	height: 100%;
+	transition: 0.8s;
+	border-radius: 5px;
+}
+.info-container button:hover{
+	color: white;
+	transform: scale(1.1);
+}
+.reg-label{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #606060;
+	font-weight: bold;
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+}
+.reg-label h1{
+	margin-bottom: 15px;
+	color: #3686BD;
+}
+.reg-label input{
+	padding:5px 15px 10px 16px;
+	margin-bottom: 20px;
+	color: #606060;
+	font-weight: bold;
+
+}
+.mail input{
+	padding-right: 230px;
+	color: #606060;
+	font-weight: bold;
+}
+.uname2{
+	padding-left: 110px;
+	color: #606060;
+	font-weight: bold;
+}
+.uname3{
+	padding-left: 90px;
+	color: #606060;
+	font-weight: bold;
+
+}
+.reg-label p{
+	font-size: 15px !important;
+	display: inline-block;
+	color: #606060;
+	font-weight: bold;
+}
+.reg-label p a{
+	color:#3686BD;
+}
+.reg-label button{
+	display: block;
+	padding:12px 30px 12px 30px;
+	border-radius: 5px;
+	border:none;
+	background: #3686BD;
+	color:black;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+}
+.reg-label button::before{
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	left:0;
+	height: 0;
+	background: tomato;
+	z-index:-2;
+}
+.reg-label button:hover::before{
+	height: 100%;
+	transition: 0.8s;
+	border-radius: 5px;
+}
+.reg-label button:hover{
+	color: white;
+	transform: scale(1.1);
+}
+.copyright{
+	text-align: center;
+	padding-top: 40px;
+	color: #4D0000;
+}
